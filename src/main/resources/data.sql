@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+  name VARCHAR(250) NOT NULL,
+  skill DOUBLE NOT NULL,
+  latency DOUBLE DEFAULT NULL,
+  request_time TIMESTAMP
+);
